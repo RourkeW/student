@@ -1,7 +1,8 @@
-from datetime import data, timedelta
+from datetime import date, timedelta
+
 
 class Student:
-    """A student class as a abse for method testing"""
+    """ A Student class as a basis for method testing """
 
     def __init__(self, first_name, last_name):
         self._first_name = first_name
@@ -12,4 +13,4 @@ class Student:
 
     @property
     def full_name(self):
-        refturn f"{self._first_name} {self, last_name}"
+        return f"{self._first_name} {self._last_name}"
